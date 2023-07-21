@@ -13,6 +13,11 @@ Selain itu, pastikan bahwa ekstensi berikut diaktifkan dalam PHP Anda:
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
 
+## Pastikan Prasyarat Terpenuhi:
+
+Pastikan Anda telah menginstal server web (seperti Apache) dan PHP di komputer Anda.
+Pastikan telah menginstal Git di komputer Anda untuk mengkloning repositori.
+
 ## Pilih Direktori Tujuan:
 
 Pilih direktori di mana Anda ingin menyimpan proyek CodeIgniter 4 ini. Misalnya, jika Anda ingin menyimpannya di direktori "htdocs" di XAMPP, Anda dapat masuk ke direktori tersebut melalui terminal atau command prompt.
