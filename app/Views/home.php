@@ -2,29 +2,29 @@
 
 <!-- Consult -->
 <section class="container-md row align-items-center inter-section">
-            <div class="col-md-6 px-lg-0 px-md-2 px-sm-2 order-md-1 order-2" data-aos="fade-down" data-aos-duration="1200" data-aos-offset="0" data-aos-delay="300">
+            <div class="col-md-6 px-lg-0 px-md-2 px-sm-2 order-md-1 order-2" >
                 <h4 class="fs-2 montserrat-bold fw-bold lh-base text-grey">Apa Itu Bimbingan Konseling?</h4>
                 <p class="mt-3 bkp-secondary-title poppins fw-light lh-lg opacity-75">proses interaksi antara konselor dengan konseli baik secara langsung maupun tidak langsung dalam rangka untuk membantu konseli agar dapat mengembangkan potensi dirinya ataupun memecahkan permasalahan yang dialaminya.</p>
-                <a class="btn btn-primary btn-warning" href="#" role="button">Jadwalkan Konsultasi</a>
+                <!-- <a class="btn btn-primary btn-warning" href="#" role="button">Jadwalkan Konsultasi</a> -->
             </div>
             <div class="button-container false">
               </div>
-            <div class="col-md-6 order-md-2 order-1" data-aos="fade-down" data-aos-duration="1500" data-aos-offset="200" data-aos-delay="400">
-                <img src="../img/Medical prescription-rafiki.svg" alt="Konsultasi" class="w-100">
+            <div class="col-md-6 order-md-2 order-1" >
+                <img src="/img/Medical prescription-rafiki.svg" alt="Konsultasi" class="w-100">
             </div>
         </section>
 <br>
 </br>
   <!-- Why Consult -->
   <section class="container-md inter-section">
-    <div class="text-center mb-5 d-block" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="20" data-aos-delay="200">
+    <div class="text-center mb-5 d-block">
     <h3 class="fw-bold fs-2 text-grey">Kenapa harus konsultasi?</h3>
       <p class="poppins fw-light lh-base opacity-75 mt-3 bkp-secondary-title">Masalah yang dipendam sendiri itu tidak baik</p>
     </div>
     <div class="row py-5 px-lg-0 px-md-2 px-3">
-      <div class="col-lg-4 col-md-6 mb-lg-0 mb-4" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="20" data-aos-delay="300">
+      <div class="col-lg-4 col-md-6 mb-lg-0 mb-4" >
         <div class="card shadow-hover border-0">
-          <img src="../img/worried-rafiki.svg" alt="Ilustrasi Khawatir" class="px-5">
+          <img src="/img/Worried-rafiki.svg" alt="Ilustrasi Khawatir" class="px-5">
           <div class="card-body">
             <div class="card-title text-grey fw-bold montserrat-bold fs-4 pb-2 text-center">
               Gangguan Kecemasan
@@ -35,9 +35,9 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 mb-lg-0 mb-4" data-aos="fade-down" data-aos-duration="1250" data-aos-offset="30" data-aos-delay="400">
+      <div class="col-lg-4 col-md-6 mb-lg-0 mb-4" >
         <div class="card shadow-hover border-0">
-          <img src="../img/Anxiety-rafiki.svg" alt="Ilustrasi stress" class="px-5">
+          <img src="/img/Anxiety-rafiki.svg" alt="Ilustrasi stress" class="px-5">
           <div class="card-body">
             <div class="card-title text-grey fw-bold montserrat-bold fs-4 pb-2 text-center">
               Stres yang berlebih
@@ -48,9 +48,9 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 mb-lg-0 mb-4" data-aos="fade-down" data-aos-duration="1500" data-aos-offset="100" data-aos-delay="200">
+      <div class="col-lg-4 col-md-6 mb-lg-0 mb-4" >
         <div class="card shadow-hover border-0">
-          <img src="../img//Questions-rafiki.svg" alt="Ilustrasi selebihnya" class="px-5">
+          <img src="/img//Questions-rafiki.svg" alt="Ilustrasi selebihnya" class="px-5">
           <div class="card-body">
             <div class="card-title text-grey fw-bold montserrat-bold fs-4 pb-2 text-center">
               Gangguan dan masalah lainnya
@@ -73,32 +73,32 @@
       <div class="carousel-item active">
         <div class="d-flex align-items-center justify-content-center px-3" style="height: 350px;">
           <div class="z-2 text-center text-light position-relative">
-            <p class="fs-5 lora-med">Siapa yang menjauhkan diri dari sifat suka mengeluh, maka ia akan mengundang kebahagiaan.</p>
-            <span class="fst-italic">( Abu Bakar Assidiq )</span>
+            <p class="fs-5 lora-med">“Berbahagialah selalu. Karena itu adalah salah satu cara menjadi bijaksana.” </p>
+            <span class="fst-italic">Sidonie Gabrielle, Sastrawan Prancis (1873-1954)</span>
           </div>
         </div>
       </div>
       <div class="carousel-item ">
         <div class="d-flex align-items-center justify-content-center px-3" style="height: 350px;">
           <div class="z-2 text-center text-light position-relative">
-            <p class="fs-5 lora-med">Gagal hanya terjadi jika kita menyerah.</p>
-            <span class="fst-italic">( B.J Habibie )</span>
+            <p class="fs-5 lora-med">“Bertahan hidup artinya selalu siap untuk berubah; karena perubahan adalah jalan menuju kedewasaan. Dan kedewasaan adalah sikap untuk selalu mengembangkan kualitas pribadi tanpa henti.” </p>
+            <span class="fst-italic">Henri Bergson, Filsuf Prancis (1859-1941)</span>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item " >
+        <div class="d-flex align-items-center justify-content-center px-3" style="height: 350px;">
+          <div class="z-2 text-center text-light position-relative">
+            <p class="fs-5 lora-med">“Penampilan fisik hanyalah sekilas dari apa yang sebenarnya tidak terlihat.” </p>
+            <span class="fst-italic">Anaxagoras, Filsuf Yunani</span>
           </div>
         </div>
       </div>
       <div class="carousel-item ">
         <div class="d-flex align-items-center justify-content-center px-3" style="height: 350px;">
           <div class="z-2 text-center text-light position-relative">
-            <p class="fs-5 lora-med">Jika kita memiliki keinginan yang kuat dari dalam hati, maka seluruh alam semesta akan bahu membahu mewujudkannya.</p>
-            <span class="fst-italic">( Ir. Soekarno )</span>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item ">
-        <div class="d-flex align-items-center justify-content-center px-3" style="height: 350px;">
-          <div class="z-2 text-center text-light position-relative">
-            <p class="fs-5 lora-med">Setiap kalian adalah pemimpin, dan setiap pemimpin akan diminta pertanggung jawaban atas apa yang di pimpinnya</p>
-            <span class="fst-italic">( HR. Bukhari )</span>
+            <p class="fs-5 lora-med">“Jalan awal terbaik untuk mewujudkan segala impian Anda adalah bangun dan bangkit dari tempat tidur.” </p>
+            <span class="fst-italic">Paul Valery, Pujangga Prancis (1875-1941)</span>
           </div>
         </div>
       </div>
@@ -115,32 +115,32 @@
 
   <!-- Consult -->
   <section class="container-md row align-items-center inter-section mt-5">
-            <div class="col-md-6 px-lg-0 px-md-2 px-sm-2 order-md-1 order-2" data-aos="fade-down" data-aos-duration="1200" data-aos-offset="100" data-aos-delay="200">
+            <div class="col-md-6 px-lg-0 px-md-2 px-sm-2 order-md-1 order-2" >
                 <h4 class="fs-2 montserrat-bold fw-bold lh-base text-grey">Bingung mau Cerita ke siapa? atau mau Curhat?</h4>
                 <p class="mt-3 poppins bkp-secondary-title opacity-75 lh-lg fw-light">Dari pada bingung, Yuk kita obrolin bersama cari jalan keluar yang baik dan tepat untuk kamu.</p>
                 <div class="bkp-contact-group mt-4">
-                    <a href="https://bkpaxist.000webhostapp.com/konsultasi" class="btn btn-info me-sm-3"><i class="far fa-envelope"></i> Kirim Pesan</a>
-                    <a href="https://wa.link/mefs5t" class="btn btn-success"><i class="fab fa-whatsapp"></i> Whatsapp</a>
+                    <a href="/counseling" class="btn btn-info me-sm-3"><i class="far fa-envelope"></i> Kirim Pesan</a>
+                    <a href="https://api.whatsapp.com/send?phone=082340565075&text=Selamat%20datang%20di%20KonselingYuk" class="btn btn-success"><i class="fab fa-whatsapp"></i> Whatsapp</a>
                 </div>
             </div>
-            <div class="col-md-6 order-md-2 order-1" data-aos-duration="1200" data-aos="fade-down" data-aos-offset="250">
-            <img src="../img//Consulting-rafiki.svg" alt="Konsultasi" class="w-100">
+            <div class="col-md-6 order-md-2 order-1" >
+            <img src="/img//Consulting-rafiki.svg" alt="Konsultasi" class="w-100">
             </div>
         </section>
         
         <section class="container-md row align-items-center inter-section mt-5">
-            <div class="col-md-6 px-lg-0 px-md-2 px-sm-2 order-md-1 order-2" data-aos="fade-down" data-aos-duration="1200" data-aos-offset="100" data-aos-delay="200">
+            <div class="col-md-6 px-lg-0 px-md-2 px-sm-2 order-md-1 order-2" >
                 <h4 class="fs-2 montserrat-bold fw-bold lh-base text-grey">Jam Kerja Konselor</h4>
                 <p class="mt-3 poppins bkp-secondary-title opacity-75 lh-lg fw-light">Senin - Jumat: 08.00 - 16.00</p>
-                <div class="col-md-6 px-lg-0 px-md-2 px-sm-2 order-md-1 order-2" data-aos="fade-down" data-aos-duration="1200" data-aos-offset="100" data-aos-delay="200">
+                <div class="col-md-6 px-lg-0 px-md-2 px-sm-2 order-md-1 order-2" >
                     <h5>Follow us</h5>
                     <a href=""><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="" height="25"></a>
                     <a href=""><img src="https://img.icons8.com/fluency/256/facebook-new.png" alt=""height="25"></a>
                     <a href=""><img src="https://img.icons8.com/fluency/256/telegram-app.png" alt=""height="25"></a>
                 </div>
                 </div>
-            <div class="col-md-6 order-md-2 order-1" data-aos-duration="1200" data-aos="fade-down" data-aos-offset="250">
-            <img src="../img//Prioritise-rafiki.svg" alt="Konsultasi" class="w-100">
+            <div class="col-md-6 order-md-2 order-1" >
+            <img src="/img//Prioritise-rafiki.svg" alt="Konsultasi" class="w-100">
             </div>
 
 

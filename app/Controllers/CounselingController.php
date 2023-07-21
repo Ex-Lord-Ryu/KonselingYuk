@@ -4,9 +4,18 @@ namespace App\Controllers;
 
 class CounselingController extends BaseController
 {
+
+  
+
   public function index()
   {
-    return view('counseling');
+
+      if( $this->session->has('user')){
+        return view('counseling');
+      }else{
+        return redirect()->to('/login');
+      }
+   
   }
 
   public function history()
