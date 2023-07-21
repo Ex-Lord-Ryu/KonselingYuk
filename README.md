@@ -25,9 +25,10 @@ update composer jika diperlukan.
 
 ## Sql, migrate, sedder
 
-sql telah sediakan dan apanila data didalam error maka dapat menggunakan alternatif lain yaitu dengan menggunakan migrate yang telah disediakan
+sql telah sediakan dan apabila data didalam error maka dapat menggunakan alternatif lain yaitu dengan menggunakan migrate yang telah disediakan
 
 sedder yang berisi data bisa digunakan apabila diperlukan
+
 
 ## Perubahan yang signifikan dengan index.php
 
