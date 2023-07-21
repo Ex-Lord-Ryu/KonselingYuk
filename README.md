@@ -1,62 +1,53 @@
 # CodeIgniter 4 Application Starter
 
-## What is CodeIgniter?
+## server yang dibutuhkan
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
-
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
-
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
-
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
-
-## Installation & updates
-
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
-
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
-
-## Setup
-
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
+PHP version 7.4 atau lebih tinggi dan extensions untuk installed:
 
 - [intl](http://php.net/manual/en/intl.requirements.php)
 - [mbstring](http://php.net/manual/en/mbstring.installation.php)
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+Selain itu, pastikan bahwa ekstensi berikut diaktifkan dalam PHP Anda:
 
 - json (enabled by default - don't turn it off)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+## 
+
+## Instalasi & Update
+
+disini menggunakan framework CodeIgniter 4 versi 4.3.6 dan apanila ada masalah atau pembaruan dari CodeIgniter anda bisa menacri pada documentasi [CodeIgniter 4](https://codeigniter.com/user_guide/index.html)
+
+update composer jika diperlukan.
+
+
+
+## Sql, migrate, sedder
+
+sql telah sediakan dan apanila data didalam error maka dapat menggunakan alternatif lain yaitu dengan menggunakan migrate yang telah disediakan
+
+sedder yang berisi data bisa digunakan apabila diperlukan
+
+## Perubahan yang signifikan dengan index.php
+
+'index.php' tidak lagi berada di akar proyek! Ini telah dipindahkan ke dalam folder *publik *,
+Meningkatkan keamanan dan pemisahan komponen.
+
+Ini berarti Anda harus mengkonfigurasi server web Anda untuk "menunjuk" ke folder *public* proyek Anda, dan
+Bukan untuk proyek root. Praktek yang lebih baik adalah mengkonfigurasi host virtual untuk menunjuk ke sana. Praktek yang buruk adalah menunjuk server web Anda ke akar proyek dan mengharapkan untuk memasukkan *public/...*, sebagai sisanya dari logika Anda dan
+Kerangka kerja tersebut diungkapkan.
+
+
+** Silakan** membaca panduan pengguna untuk penjelasan yang lebih baik tentang bagaimana CI4 bekerja!
+
+## Manajemen repository
+
+Kami menggunakan masalah GitHub, di repositori utama kami, untuk melacak **BUGS** dan melacak paket kerja yang disetujui **DEVELOPMENT**.
+Kami menggunakan kami [forum](http://forum.codeigniter.com) untuk memberikan dukungan dan untuk membahas
+Fitur yang diminta.
+
+Repository ini adalah "distribusi", yang dibangun oleh script persiapan rilis kami.
+Masalah dengan itu dapat dibangkitkan di forum kami, atau sebagai masalah di repositori utama.
+
+
