@@ -1,6 +1,6 @@
 # CodeIgniter 4 Application Starter
 
-## server yang dibutuhkan
+## Pastikan Prasyarat Terpenuhi:
 
 PHP version 7.4 atau lebih tinggi dan extensions untuk installed:
 
@@ -13,42 +13,45 @@ Selain itu, pastikan bahwa ekstensi berikut diaktifkan dalam PHP Anda:
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
 
-## 
+## Pilih Direktori Tujuan:
 
-## Instalasi & Update
+Pilih direktori di mana Anda ingin menyimpan proyek CodeIgniter 4 ini. Misalnya, jika Anda ingin menyimpannya di direktori "htdocs" di XAMPP, Anda dapat masuk ke direktori tersebut melalui terminal atau command prompt.
+## Klone Repositori:
 
-disini menggunakan framework CodeIgniter 4 versi 4.3.6 dan apanila ada masalah atau pembaruan dari CodeIgniter anda bisa menacri pada documentasi [CodeIgniter 4](https://codeigniter.com/user_guide/index.html)
+Ketik perintah berikut untuk mengkloning repositori KonselingYuk ke direktori tujuan:
+bash
+Copy code
+git clone https://github.com/Ex-Lord-Ryu/KonselingYuk.git
+## Masuk ke Direktori Proyek:
 
-update composer jika diperlukan.
+Pindah ke direktori proyek yang telah Anda kloning:
+bash
+Copy code
+cd KonselingYuk
+## Instal Dependensi:
 
+CodeIgniter 4 menggunakan Composer untuk mengelola dependensi. Pastikan Anda telah menginstal Composer di komputer Anda.
+Jalankan perintah berikut untuk menginstal dependensi proyek:
+Copy code
+composer install
+## Konfigurasi .env:
 
+Duplikat file .env.example menjadi .env.
+Sesuaikan pengaturan database (DB) Anda dengan mengisi informasi yang diperlukan di file .env.
+Jalankan Migrasi:
 
-## Sql, migrate, sedder
+CodeIgniter 4 menggunakan fitur migrasi untuk mengatur skema database. Jalankan perintah migrasi berikut untuk membuat tabel yang diperlukan di database:
+Copy code
+php spark migrate
+## Jalankan Development Server:
 
-sql telah sediakan dan apabila data didalam error maka dapat menggunakan alternatif lain yaitu dengan menggunakan migrate yang telah disediakan
+CodeIgniter 4 menyediakan server pengembangan bawaan untuk memudahkan pengembangan.
+Jalankan perintah berikut untuk menjalankan server pengembangan:
+Copy code
+php spark serve
+## Buka Aplikasi di Browser:
 
-sedder yang berisi data bisa digunakan apabila diperlukan
+Buka browser web Anda dan akses http://localhost:8080/ (atau sesuai dengan port yang Anda tetapkan saat menjalankan server pengembangan).
+Selesai:
 
-
-## Perubahan yang signifikan dengan index.php
-
-'index.php' tidak lagi berada di akar proyek! Ini telah dipindahkan ke dalam folder *publik *,
-Meningkatkan keamanan dan pemisahan komponen.
-
-Ini berarti Anda harus mengkonfigurasi server web Anda untuk "menunjuk" ke folder *public* proyek Anda, dan
-Bukan untuk proyek root. Praktek yang lebih baik adalah mengkonfigurasi host virtual untuk menunjuk ke sana. Praktek yang buruk adalah menunjuk server web Anda ke akar proyek dan mengharapkan untuk memasukkan *public/...*, sebagai sisanya dari logika Anda dan
-Kerangka kerja tersebut diungkapkan.
-
-
-** Silakan** membaca panduan pengguna untuk penjelasan yang lebih baik tentang bagaimana CI4 bekerja!
-
-## Manajemen repository
-
-Kami menggunakan masalah GitHub, di repositori utama kami, untuk melacak **BUGS** dan melacak paket kerja yang disetujui **DEVELOPMENT**.
-Kami menggunakan kami [forum](http://forum.codeigniter.com) untuk memberikan dukungan dan untuk membahas
-Fitur yang diminta.
-
-Repository ini adalah "distribusi", yang dibangun oleh script persiapan rilis kami.
-Masalah dengan itu dapat dibangkitkan di forum kami, atau sebagai masalah di repositori utama.
-
-
+Sekarang Anda telah berhasil menginstal proyek CodeIgniter 4 dari repositori KonselingYuk. Anda dapat mulai mengembangkan aplikasi Anda menggunakan proyek ini.
